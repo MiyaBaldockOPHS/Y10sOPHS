@@ -1,0 +1,6 @@
+firstname = str(input("Input your first name>>>"))
+lastname = str(input("Input your last name>>>"))
+space = " "
+concat = firstname + space + lastname
+print(concat)
+print(len(concat))
