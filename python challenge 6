@@ -1,0 +1,6 @@
+name = input("Enter your nme>>>")
+if name == "Miya":
+    print("You're cool")
+
+else:
+    print("Nice to meet you")
