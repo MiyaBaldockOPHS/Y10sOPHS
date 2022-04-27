@@ -1,0 +1,11 @@
+import sys
+cars = []
+loop = True
+
+while loop == True:
+    brand = input("Enter a car brand or press x to exit>>")
+    cars.append(brand)
+    if brand == "x":
+        print("exiting...")
+        print("in the list is..." ,cars)
+        exit (sys)
