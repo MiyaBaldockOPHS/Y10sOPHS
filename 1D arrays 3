@@ -1,0 +1,14 @@
+people = []
+person1 = input("Enter the name of a person you want to invite to a party>>")
+person2 = input("Enter the name of another person you want to invite to a party>>")
+person3 = input("Enter the name of another person you want to invite to a party>>")
+people.append(person1)
+people.append(person2)
+people.append(person3)
+answer = input("Do you want to add another person? y or n>>")
+while answer == "y":
+    input("Enter the name of another person you want to invite to a party>>")
+    people.append(input)
+    answer = input("Do you want to add another person? y or n>>")
+    if answer == "n":
+        print("The amount of people invited are..", len(people))
