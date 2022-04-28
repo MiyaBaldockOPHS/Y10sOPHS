@@ -1,0 +1,12 @@
+nums = []
+number1 = int(input("Enter a number>>"))
+number2 = int(input("Enter a number>>"))
+number3 = int(input("Enter a number>>"))
+num.append(number1)
+num.append(number2)
+num.append(number3)
+item = str(input("Do you still want the last number you entered to be saved? y or n>>")
+if answer == "n"
+             item = item-1
+             del nums[item]
+             print(nums)
