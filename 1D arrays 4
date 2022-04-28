@@ -1,0 +1,13 @@
+Programs = ["Bad Education" , "The Office" , "Friends" , "Heartstopper"]
+print(Programs[0])
+print(Programs[1])
+print(Programs[2])
+print(Programs[3])
+show = str(input("Enter another show>>"))
+position = int(input("Which position do you want it in the list>>"))
+Programs.insert(1,show)
+print(Programs[0])
+print(Programs[1])
+print(Programs[2])
+print(Programs[3])
+print(Programs[4])
