@@ -1,0 +1,16 @@
+food = []
+food1 = input("Enter a type of food>>")
+food2 = input("Enter another type of food>>")
+food3 = input("Enter another type of food>>")
+food4 = input("Enter another type of food>>")
+food.append(food1)
+food.append(food2)
+food.append(food3)
+food.append(food4)
+print(food)
+item = int(input("Enter number of item to delete>>> "))
+item = item-1
+
+del food[item]
+print(food)
+
