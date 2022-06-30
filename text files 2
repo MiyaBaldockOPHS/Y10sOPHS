@@ -1,0 +1,7 @@
+file = open("names.txt" , "w")
+file.write("Bob\n")
+file.write("Fred\n")
+file.write("Izzy\n")
+file.write("Nick\n")
+file.write("Darcy\n")
+file.close()
