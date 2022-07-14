@@ -1,0 +1,15 @@
+def cod():
+    one = print("1)Domination")
+    two = print("2)Team Deathmatch")
+    three = print("3)Headquaters")
+cod()
+option = int(input("Choose an option>>>"))
+
+if option == 1:
+    print("1)Domination")
+
+if option == 2:
+    print("2)Team Deathmatch")
+
+if option == 3:
+    print("3)Headquaters")
