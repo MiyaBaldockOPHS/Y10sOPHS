@@ -1,0 +1,5 @@
+def fifa47():
+    print("Carrer mode")
+    print("Tournament mode")
+    print("Online seasone")
+fifa47()
