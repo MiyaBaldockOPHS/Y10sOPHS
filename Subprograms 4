@@ -1,0 +1,43 @@
+def minecraft():
+    one = print("1)Creative")
+    two = print("2)Survival")
+    three = print("3)Hardcore")
+    four = print("4)Adventure")
+    five = print("5)Exit")
+minecraft()
+option = int(input("Choose an option>>>"))
+
+if option == 1:
+    print("Creative selected")
+
+if option == 2:
+    print("Survival selected")
+
+if option == 3:
+    print("Hardcore selected")
+
+if option == 4:
+    print("Adventure selected")
+
+if option == 5:
+    print("Exiting...")
+
+while option >= 6:
+    print("Invalid choice")
+    option = int(input("Choose an option>>>"))
+
+    if option == 1:
+        print("Creative selected")
+
+    if option == 2:
+        print("Survival selected")
+
+    if option == 3:
+        print("Hardcore selected")
+
+    if option == 4:
+        print("Adventure selected")
+
+    if option == 5:
+
+        print("Exiting...")
